@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block main_page %}
-<h2>{{file}} content between range {{start}} - {{end}}</h2>
+<h2>Content of {{file}}</h2>
+<hr>
 {{data|safe}}
 {% endblock %}

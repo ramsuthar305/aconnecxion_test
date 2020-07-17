@@ -40,7 +40,7 @@ def render_file_data():
         file_data=file_data.split('\n')
         new_list=file_data[start_range:end_range]
         file_data=''.join(new_list)
-    return render_template('index.html',data=file_data,file=filename,start=start_range,end=end_range)
+    return render_template('index.html',data=file_data,file=filename)
     
 
 
