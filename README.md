@@ -1,9 +1,11 @@
 # aconnecxion_test
 
-##Installation 
+## Installation 
 `pip3 install REQUIREMENTS.txt`
 
-##Execution
+## Execution
 `flask run`
 
-##url: `http://127.0.0.1:5000/?filename=[FILE_NAME]&start_range=[START LINE NUMBER]&start_range=[END LINE NUMBER]
+## url
+WITH PARAMETERS `http://127.0.0.1:5000/?filename=[FILE_NAME]&start_range=[START LINE NUMBER]&start_range=[END LINE NUMBER]`
+WITHOUT PARAMETERS `http://127.0.0.1:5000/`
